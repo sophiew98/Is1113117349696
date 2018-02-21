@@ -1,14 +1,47 @@
 .mainheading{
      text-align: center;
 }
-
-.header{
-    background-color:	
-}
-.list ul li {
+  
+.header ul li {
+  background-color:#191970;
   list-style:none;
+    display:inline; 
+    font-size:20px;
+    padding:1%;
 }
-.footer{
-    background-color:	#A9A9A9;
-    
+.header {
+  background-color:#191970;
+  height:15%;
+  width:100%;   
+  position:fixed;
+  
+}
+.footer {
+  background-color:#000;
+  color:white;
+  width:100%;
+
+}
+.header ul li:hover {
+   background:black;
+  cursor: pointer; 
+}
+
+.header ul li a{
+  color:white;
+  text-decoration:none;
+  padding: 14px 16px;
+  text-align:center;
+  
+}
+.body{
+  height:709px;
+  text-align:center;
+  font-family:Arial;
+  background-image:url("images/BACKGROUND.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  color:white;
+  min-height:100%;
+  min-width: 100%;
 }
