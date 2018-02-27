@@ -1,47 +1,53 @@
 .mainheading{
      text-align: center;
+     color:black;
+     font-family:Arial
 }
-  
-.header ul li {
-  background-color:#191970;
-  list-style:none;
-    display:inline; 
-    font-size:20px;
-    padding:1%;
-}
-.header {
-  background-color:#191970;
-  height:15%;
-  width:100%;   
-  position:fixed;
-  
-}
+.header  ul li :hover {
+                   background:black;
+                   cursor: pointer; 
+                   text-decoration:none;
+                   color:white;
+               }
+              
+ .header ul li{
+                   background-color:#191970;
+                   list-style:none;
+                    display:inline; 
+                    font-size:20px;
+                    font-family: Arial;
+                    
+               }
+.header  ul li a{
+                   color:white;
+                      text-decoration:none;
+                      padding: 14px 16px;
+                      text-align:center;
+               }
+
 .footer {
-  background-color:#000;
+  background-color:black;
   color:white;
   width:100%;
-
-}
-.header ul li:hover {
-   background:black;
-  cursor: pointer; 
-}
-
-.header ul li a{
-  color:white;
-  text-decoration:none;
-  padding: 14px 16px;
   text-align:center;
-  
+  font-family:arial;
+
 }
+
 .body{
-  height:709px;
+  height:816px;
   text-align:center;
   font-family:Arial;
   background-image:url("images/BACKGROUND.png");
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:cover;
   color:white;
   min-height:100%;
   min-width: 100%;
+}
+.sports  {
+                    text-align: center;
+                    font-size:20px;
+                    font-family: Arial;
+                    color:white;
 }

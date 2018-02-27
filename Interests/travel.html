@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8"/>
         <title>Travel</title>
-       <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
-       <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
-       <link rel="stylesheet" href="int_pages.css" type ="text/css" />
+        
+       <link rel="stylesheet" href="int_pages.css" type="text/css" />
+       <script type="text/javascript" src="travel.js"></script>
+       
        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -15,19 +16,52 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
     
     <script type="text/javascript">
-        $(document).ready(function() {
-	$('#pagepiling').pagepiling();
-});
+            
+                $(document).ready(function() {
+            
+            $('#pagepiling').pagepiling();
+            
+                });
+                 });
     </script>
     </head>
-    <body>
+    
+        <body>
+        
+            <ul style= "list-style-type:none;background-color:#191970;padding:1%;">
+           <style>
+               ul li :hover {
+                   background:black;
+                   cursor: pointer; 
+                   text-decoration:none;
+                   color:white;
+               }
+               ul li{
+                   background-color:#191970;
+                   list-style:none;
+                    display:inline; 
+                    font-size:20px;
+                    
+               }
+               ul li a{
+                   color:white;
+                      text-decoration:none;
+                      padding: 14px 16px;
+                      text-align:center;
+               }
+           </style>
+                <li style="display:inline;text-align:center;"><a href="../homepage.html">Home</a></li>
+                <li style="display:inline;text-align:center;"><a href="cv_page1.html">Curriculum Vitae</a></li>
+                <li style="display:inline;text-align:center;"><a href = "../Interests/sports.html">Interests</a></li>
+                 <li style="display:inline;text-align:center;"><a href="../Ebus/Ebus1.php">Shop</a></li>
+            </ul>
         <div id="pagepiling">
 	<div class="section" id="section1">Most travelled to:New York</div>
 	<div class="section" id="section2">Want to travel to:Barbados</div>
 	<div class="section" id="section3">
 	    Want to settle in New York
 	    <hr/>
-	    <a href ="../homepage.html" class="btn btn-success">Home</a>
+	    <a href ="../homepage.html" class="btn btn-white">Home</a>
 	</div>
 	
 </div>
