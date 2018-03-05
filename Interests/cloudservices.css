@@ -1,13 +1,23 @@
 #section1{
 
-   background-color: rgb(40, 62, 80);
+   background-image:url(../images/CLOUD1.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   color:black;
+   font-family: arial;
+   
 }
 
 
 
 #section2{
 
-    background-color: rgb(44, 62, 80);
+   background-image:url(../images/CLOUD2.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   color:black;
+   font-family: arial;
+   
 
 }
 
@@ -15,7 +25,12 @@
 
 #section3{
 
-    background-color: rgb(51, 153, 204);
+  background-image:url(../images/CLOUD3.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   color:black;
+   font-family: arial;
+   
 
 }
 
@@ -26,5 +41,7 @@
     text-align: center;
 
     color: white;
+    
+font-family: arial;
 
 }
