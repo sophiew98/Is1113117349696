@@ -2,10 +2,10 @@
 
    background-image:url(../images/CLOUD1.png);
    background-repeat: no-repeat;
-   background-size:cover;
+   background-size: cover;
    color:black;
    font-family: arial;
-   
+  
 }
 
 
@@ -44,4 +44,9 @@
     
 font-family: arial;
 
+}
+#section1paragraph {
+    text-align: center;
+    font-family: arial;
+    color:black;
 }
