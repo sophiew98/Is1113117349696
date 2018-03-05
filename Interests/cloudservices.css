@@ -1,40 +1,31 @@
 #section1{
 
    background-image:url(../images/CLOUD1.png);
-   background-repeat: no-repeat;
    background-size: cover;
    color:black;
    font-family: arial;
   
 }
 
-
-
 #section2{
 
    background-image:url(../images/CLOUD2.png);
-   background-repeat: no-repeat;
    background-size:cover;
    color:black;
    font-family: arial;
    
 
 }
-
-
 
 #section3{
 
   background-image:url(../images/CLOUD3.png);
-   background-repeat: no-repeat;
    background-size:cover;
    color:black;
    font-family: arial;
    
 
 }
-
-
 
 .section{
 
@@ -49,4 +40,17 @@ font-family: arial;
     text-align: center;
     font-family: arial;
     color:black;
+}
+#section2paragraph {
+    text-align: center;
+    font-family: arial;
+    color:black;
+    
+}
+
+#section3paragraph {
+    text-align: center;
+    font-family: arial;
+    color:black;
+    
 }
