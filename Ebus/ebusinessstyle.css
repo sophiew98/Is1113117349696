@@ -1,11 +1,11 @@
-.ebusinessheader  ul li :hover {
+.cloudheader  ul li :hover {
                    background:black;
                    cursor: pointer; 
                    text-decoration:none;
                    color:white;
                }
               
- .ebusinessheader ul li{
+ .cloudheader ul li{
                    background-color:#191970;
                    list-style:none;
                     display:inline; 
@@ -13,7 +13,7 @@
                     font-family: Arial;
                     
                }
-.ebusinessheader  ul li a{
+.cloudheader  ul li a{
                    color:white;
                       text-decoration:none;
                       padding: 14px 16px;
@@ -28,7 +28,7 @@
     height:816px;
     text-align: center;
      min-height:100%;
-  min-width: 100%;
+      min-width: 100%;
 }              
 
 .ebusfooter {
@@ -74,4 +74,9 @@
     color: white;
     text-align: center;
     background: #c9cdff;
+}
+.logos {
+    text-align:center;
+    font-family: arial;
+    
 }
