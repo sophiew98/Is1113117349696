@@ -80,3 +80,16 @@
     font-family: arial;
     
 }
+
+.productsbody {
+    
+ background: url(../images/CLOUDSERVE.jpg) no-repeat center fixed;
+    background-size:contain;
+    color:black;
+    font-family: arial;
+    height:816px;
+    text-align: center;
+     min-height:100%;
+      min-width: 100%;
+    
+}
