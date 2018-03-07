@@ -1,20 +1,22 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        
+       
         <title>Select Product</title>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         
-        <!--Stylesheets -->
         <link rel="stylesheet" href="ebusshop.css" type="text/css"/>
-        
+
     </head>
-    
+     
     <body>
+        
          <div class="ebusinessheader">
         
              <ul style= "list-style-type:none;background-color:#191970;padding:1%;text-align:center;">
@@ -44,76 +46,76 @@
                <li style="display:inline;text-align:center;"><a href="ebusinessabout.html">Products</a></li>
                 <li  style="display:inline;text-align:center;"><a href = "Ebus1.php">Shop</a></li>
                  <li  style="display:inline;text-align:center;"><a href="cloudservices.html">About Cloud</a></li>
+                 <li  style="display:inline;text-align:center;"><a href="../Cv/cv_page1.html">CV</a></li>
+                 
             </ul>
+            
          </div>  
-        
-        <!-- Adding page content -->
-        <div class="shopbody">
+         
+         <div class="ebus1">
+             
             
-              <img src="../images/SALESFORCE.png">
-            </div>
+    <div class="ebusbackground">
+         <br/>
+            <br/>
+            <h2 style="font-family:arial;color:black;text-align:center;">Select a Product</h2>
             
-            <h1>Select a Product</h1>
-                
-            <br>
-                
+           <br/>
             <form method="POST" action="Ebus2.php">
               
-              <!-- Display radio buttons for cloud service options -->
-              <label for="salesforce" class="salesforcelabel">
-                
-                <input type="radio" id="salesforce" name="product" checked onClick="rbChecked()"/>
+              <label for="salesforce">
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
               </label>
-                  
+              
+              <br/>
+              
+              <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                Cloud9 @ $200
+              </label>
+              
               <br>
               
-              <label for="cloud9" class="cloud9label">
-                <input type="radio" id="cloud9" name="product" onClick="rbChecked()"/>
-                 Cloud9 @ $200
-              </label>
-                  
-              <br>
-                  
-              <label for="aws" class="awslabel">
-                <input type="radio" id="aws" name="product" onClick="rbChecked()"/>
+              <label for="aws">
+                <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
                 AWS @ $300
               </label>
-                  
+              
               <br>
-                  
-              <label for="gmail" class="gmaillabel">
-                <input type="radio" id="gmail" name="product" onClick="rbChecked()"/>
+              
+              <label for="gmail">
+                <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
                 Gmail @ $400
               </label>
               
+              <br/>
+              <br/>
               
-              
-              <!-- Breakdown of the price for the selected option -->
-              <label for="subtotal" class="subtotallabel">
-                Sub Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <label for="subtotal">
+                Sub Total ;
                 <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
               </label>
               
               <br>
               
-              <label for="discount" class="discountlabel">
-                Discount @ 5% &nbsp;&nbsp;&nbsp; <input type="text" id="discount" name="discount" value="0.00" readonly/>
+              <label for="discount">
+                Discount @ 5% ; <input type="text" id="discount" name="discount" value="0.00" readonly/>
                 <br>
                 (- Discount)
               </label>
                   
               <br>
               
-              <label for="vat" class="vatlabel">
-                VAT @ 10% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label for="vat">
+                VAT @ 10% ;
                 <input type="text" id="vat" name="vat" value="0.00" readonly/>
               </label>
                   
               <br>
                   
-              <label for="total" class="totallabel">
-                Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <label for="total" >
+                Total ;
                 <input type="text" id="total" name="total" value="0.00" readonly/>
                 <br>
                 (- Discount + VAT)
@@ -121,24 +123,30 @@
         
               <br>
               
-              <div class="add_btn">   
-                <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart <i class="material-icons">add_shopping_cart</i></button>
-              </div>  
-                
+        
+              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            
             </form>
-              
-            <!-- button for calculating price breakdown of the selected option -->    
-            <button class="cal_btn" onClick="calcSub()">Calculate Cost</button>
+            
+            <br/>
+            
+            <button onClick="calcSub()">Calculate Cost</button>
                
             <br>
               
-            <!-- button for clearing the selected options -->    
-            <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice <i class="material-icons">delete</i></a>
-        </div>
-        
-        <!-- Displaying copyright information -->
-        <footer class="ebus_copyright">
-            <p>
+            <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice</a>
+           
                 
-    </body>
+            </form>
+              
+            
+        </div>
+   </div>
+        </div>
+    
+    <div class="ebusfooter">
+             Sophie Walker , Copyright &copy; 2018
+             </div>
+  </body>
+    
 </html>

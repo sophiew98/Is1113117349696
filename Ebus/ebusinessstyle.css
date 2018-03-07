@@ -93,3 +93,8 @@
       min-width: 100%;
     
 }
+
+.button {
+    color:blue;
+    width:100px;
+}
