@@ -35,7 +35,6 @@
 }
 
 .body{
-  height:816px;
   text-align:center;
   font-family:Arial;
   background-image:url("images/BACKGROUND.png");
@@ -56,4 +55,12 @@
     font-family:arial;
     height:816px;
     
+}
+.nextbutton {
+    text-align:center;
+}
+
+.button {
+    color:blue;
+    width:100px;
 }
