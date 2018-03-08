@@ -12,7 +12,7 @@ session_start();
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     <body>
-         
+          <!--Creating the Navbar-->
          <div class="ebusinessheader">
         
              <ul style= "list-style-type:none;background-color:#191970;padding:1%;text-align:center;">
@@ -89,7 +89,11 @@ session_start();
         </div>
         </div>
         </div>
+        <?php
+        $_SESSION["total"] = $_POST["total"];
+         ?>
          <div class="ebusfooter">
+        
              Sophie Walker , Copyright &copy; 2018
              </div>
     </body>

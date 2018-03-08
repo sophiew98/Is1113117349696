@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,6 +9,7 @@ session_start();
           <link rel="stylesheet" href="ebusshop.css" type="text/css"/>
     </head>
     <body>
+         <!--Creating the Navbar-->
         <div class="ebusinessheader">
         
              <ul style= "list-style-type:none;background-color:#191970;padding:1%;text-align:center;">
@@ -49,32 +51,28 @@ session_start();
             
             <h1>Receipt</h1>
             
-            <?php  
-            // Set session variables
-              $_SESSION["user_name"] = $_POST["user_name"];
-              $_SESSION["user_email"] = $_POST["user_email"];
-               $_SESSION["total"] = $_POST["total"];
-               
-              
-            ?>
+           
             
             <p>
+              
+            
+            <p class="ebus3_name">
                 <?php
-               
+                // Echo session variables that were set on the previous pages
                 echo "Username: " . $_SESSION["user_name"] . ".";
                 ?>
             </p>
             
-            <p>
+            <p class="ebus3_email">
                 <?php
-               
+                // Echo session variables that were set on the previous pages
                 echo "Email: " . $_SESSION["user_email"] . ".";
                 ?>
             </p>
             
-            <p>
+            <p class="ebus3_total">
                 <?php
-                
+                // Echo session variables that were set on the previous pages
                 echo "Total: " . $_SESSION["total"] . ".";
                 ?>
             </p>
