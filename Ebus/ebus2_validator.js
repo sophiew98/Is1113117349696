@@ -1,6 +1,6 @@
 /* global $ */
 
-// I obtained this name validation on: https://stackoverflow.com/questions/17899107/validate-name-field-in-javascript
+// I used this name validation found on : https://stackoverflow.com/questions/17899107/validate-name-field-in-javascript
 function validateName(){
     
     var name;
@@ -51,7 +51,7 @@ var pin;
     }
 }
 
-// I obtained this email validation on: https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
+// I used this method of email validation found on: https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
 function validateInputEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);

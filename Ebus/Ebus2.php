@@ -52,7 +52,7 @@ session_start();
                  
         <h2>Please enter your payment details</h2>
         
-        
+        <!--Creating the input boxes and validation -->
             <form action="Ebus3.php" method="POST">
                 <br/>
                 <br/>
@@ -89,9 +89,11 @@ session_start();
         </div>
         </div>
         </div>
+        <!--Creating the session variable for the total to appear on the recipt-->
         <?php
         $_SESSION["total"] = $_POST["total"];
          ?>
+         <!--Creating the Footer-->
          <div class="ebusfooter">
         
              Sophie Walker , Copyright &copy; 2018

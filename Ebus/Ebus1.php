@@ -62,6 +62,7 @@ session_start();
             <h2 style="font-family:arial;color:black;text-align:center;">Select a Product</h2>
             
            <br/>
+           <!--Creating the labels and radio buttons for the different options-->
             <form method="POST" action="Ebus2.php">
               
               <label for="salesforce">
@@ -144,7 +145,7 @@ session_start();
         </div>
    </div>
         </div>
-    
+    <!--Creating the Footer-->
     <div class="ebusfooter">
              Sophie Walker , Copyright &copy; 2018
              </div>

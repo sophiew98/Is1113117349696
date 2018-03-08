@@ -46,7 +46,7 @@ session_start();
          
          <div class="ebus1">
         
-       
+       <!--Bringing back the variables declared on the other pages for the reciept-->
         <div class="ebusbackground">
             
             <h1>Receipt</h1>
@@ -87,6 +87,7 @@ session_start();
             
         </div>
         </div>
+        <!--Creating the Footer-->
         <div class="ebusfooter">
              Sophie Walker , Copyright &copy; 2018
              </div>
